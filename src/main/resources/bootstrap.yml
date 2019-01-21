@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: SubjectServer
+  cloud:
+    config: 
+      uri: http://config.responsible-nrg.com
+  profiles:
+    active: subject  
